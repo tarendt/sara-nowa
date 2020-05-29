@@ -1,0 +1,15 @@
+#!/bin/sed -f
+
+# Demo Git-Lab
+s/__DSPACE_PASSWORD__/SECRET/
+
+# Demo Git-Archiv
+s/__DEMOARCHIV_TOKEN__/SECRET/
+
+# Demo GitHub
+s/__GITHUBPLAIN_ID__/SECRET/
+s/__GITHUBPLAIN_SECRET__/SECRET/
+
+# Demo GitLab
+s/__DEMOGITLAB_ID__/SECRET/
+s/__DEMOGITLAB_SECRET__/SECRET/
